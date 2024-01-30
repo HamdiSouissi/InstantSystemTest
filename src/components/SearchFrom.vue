@@ -36,11 +36,12 @@
       </div>
       <div class="switch-btn" @click="swapInputs"><svg-icon type="mdi" :path="swap"></svg-icon></div>
     </div>
-    <div class="row">
-       <label for="datetimeInput">Départ :</label>
-      <input type="datetime-local" id="datetimeInput" v-model="selectedDate" >
-      <p>{{ formattedDate }}</p>
+
+    <div class="date">
+      <label for="datetimeInput">Départ</label>
+      <VueDatePicker v-model="date" :format="formatDate" :locale="frLocale" auto-apply />
     </div>
+    
     <div class="row">
       <button type="submit">Rechercher</button>
     </div>
@@ -50,12 +51,17 @@
 
 <script>
 import SvgIcon from '@jamescoyle/vue-icon'
-import { mdiTune, mdiChevronDown, mdiPlus, mdiSwapVertical  } from '@mdi/js';
+import { mdiTune, mdiChevronDown, mdiPlus, mdiSwapVertical } from '@mdi/js';
+import VueDatePicker from '@vuepic/vue-datepicker';
+import '@vuepic/vue-datepicker/dist/main.css'
+import { format } from 'date-fns';
+import { fr } from 'date-fns/locale';
 
 export default {
-  name : "SearchForm",
-  components:{
-    SvgIcon
+  name: "SearchForm",
+  components: {
+    SvgIcon,
+    VueDatePicker
   },
   data() {
     return {
@@ -63,50 +69,26 @@ export default {
       selectedOption: "Aller simple",
       tune: mdiTune,
       plus: mdiPlus,
-      swap:mdiSwapVertical ,
-      chevron:mdiChevronDown,
-      isFilterOpen:false,
-      selectedDate: '',
-      formattedDate: '',
+      swap: mdiSwapVertical,
+      chevron: mdiChevronDown,
+      isFilterOpen: false,
       fromLabel: "De",
       fromName: "from",
       fromId: "fromInput",
       fromValue: "",
-
       toLabel: "À",
       toName: "to",
       toId: "toInput",
       toValue: "",
+      date: new Date(),   
     };
-  },
-  watch: {
-    selectedDate: 'updateFormattedDate',
   },
   methods: {
     toggleDropdown() {
       this.isDropdownOpen = !this.isDropdownOpen;
     },
-    toggleDropdownFilters(){
+    toggleDropdownFilters() {
       this.isFilterOpen = !this.isFilterOpen;
-    },
-    updateFormattedDate() {
-      if (this.selectedDate) {
-        const parsedDate = new Date(this.selectedDate);
-        this.formattedDate = this.formatDate(parsedDate);
-      } else {
-        this.formattedDate = '';
-      }
-    },
-    formatDate(date) {
-      const options = {
-        day: 'numeric',
-        month: 'short',
-        year: 'numeric',
-        hour: 'numeric',
-        minute: 'numeric',
-      };
-
-      return new Intl.DateTimeFormat('fr-FR', options).format(date);
     },
     swapInputs() {
       [this.fromLabel, this.toLabel] = [this.toLabel, this.fromLabel];
@@ -114,10 +96,20 @@ export default {
       [this.fromId, this.toId] = [this.toId, this.fromId];
       [this.fromValue, this.toValue] = [this.toValue, this.fromValue];
     },
-  }
+    formatDate(date) {
+      return format(date, 'dd MMM HH:mm', { locale: fr });
+    },
+  },
+  computed: {
+    frLocale() {
+      return fr;
+    },
+    formattedDate() {
+      return this.date ? this.formatDate(this.date) : '';
+    },
+  },
 };
 </script>
-
 <style lang="scss">
   .select-ways{
     display: block;
@@ -271,6 +263,37 @@ export default {
       }
 
     }
+}
+
+.datepicker-calendar-icon {
+  display: none;
+}
+.dp__input_icons {
+  display: none !important;
+}
+
+input.dp__pointer.dp__input_readonly.dp__input.dp__input_icon_pad.dp__input_reg {
+    font-weight: 700;
+    z-index: 9;
+    position: relative;
+    max-width: 200px;
+    float: left;
+    padding: 9px 0;
+    padding-left: 80px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.date label {
+    position: relative;
+    left: 12px;
+    top: 33px;
+    font-weight: 700;
+    color: var(--main-color);
+    width: 66px;
+    display: block;
+    text-align: left;
+    z-index: 999;
 }
 
 
