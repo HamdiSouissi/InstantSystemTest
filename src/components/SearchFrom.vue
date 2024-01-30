@@ -2,6 +2,8 @@
   <div class="search-form card">
     <h3>Itinéraire</h3>
 
+
+  <form @submit.prevent="search">
     <div class="select-ways">
       <div class="select-container" @click="toggleDropdown">
         <span>{{ selectedOption }}</span>
@@ -45,7 +47,7 @@
     <div class="row">
       <button type="submit">Rechercher</button>
     </div>
-    
+  </form>
   </div>
 </template>
 
@@ -99,6 +101,20 @@ export default {
     formatDate(date) {
       return format(date, 'dd MMM HH:mm', { locale: fr });
     },
+    search() {
+    // Utilisez `query` pour des données qui peuvent être exposées dans l'URL
+    // ou `params` si vous préférez ne pas les exposer
+    this.$router.push({
+      name: 'result', // Assurez-vous que la route 'result' est bien définie dans votre fichier de routes
+      query: { 
+        from: this.fromValue,
+        to: this.toValue,
+        option: this.selectedOption,
+        date: this.formatDate(this.date)
+      }
+    });
+  }
+    
   },
   computed: {
     frLocale() {
