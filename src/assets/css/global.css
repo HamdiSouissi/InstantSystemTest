@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@import url('./animations.css');
+:root {
+    --main-color: #d7306d;
+    --txt-color:#000;
+    --background-color:#fcfcfc;
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
+#app {
+  font-family: 'Open Sans', sans-serif;
+  background: var(--background-color);
+  padding: 2%;
+  min-height: 100vh;
+  text-align: center;
+  color: var(--txt-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+    width: 100%;
+    min-height: 200px;
+    border-radius: 30px;
+    background: #fff;
+    box-shadow: 0px 0px 23px -4px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 0px 23px -4px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 23px -4px rgba(0,0,0,0.25);
+    padding: 5%;
+    display: block;
+    position: relative;
+    float: left;
+    -webkit-animation: scale-up-ver-top 0.8s both;
+	  animation: scale-up-ver-top 0.8s both;
+
+    h3{
+        width: 100%;
+        text-align: left;
+        font-weight: 700;
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+}
