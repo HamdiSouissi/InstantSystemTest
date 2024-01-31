@@ -102,10 +102,8 @@ export default {
       return format(date, 'dd MMM HH:mm', { locale: fr });
     },
     search() {
-    // Utilisez `query` pour des données qui peuvent être exposées dans l'URL
-    // ou `params` si vous préférez ne pas les exposer
     this.$router.push({
-      name: 'result', // Assurez-vous que la route 'result' est bien définie dans votre fichier de routes
+      name: 'result',
       query: { 
         from: this.fromValue,
         to: this.toValue,
