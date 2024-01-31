@@ -1,0 +1,1248 @@
+{
+  "_links": {
+    "next": {
+      "href": "/journeys?tt=0&fi=STOPAREA%7CFR%3A14437%3AStopPlace%3AAUTOxAL202305250956042825%3AATOUMOD&fv=Mondeville%20Centre%20Commercial%2C%20Mondeville&flat=49.1642&flon=-0.294805&ti=ADDRESS%7C49.43931%2C1.09671&tv=Docteur%20Geek%2C%202%2C%20Rouen&tlat=49.43931&tlon=1.09671&dt=2023-12-04T10%3A08%3A52.014%2B00%3A00&a=false&sl=false&ad=false",
+      "departureDateTime": "2023-12-04T10:08:52.014+00:00"
+    },
+    "previous": {
+      "href": "/journeys?tt=0&fi=STOPAREA%7CFR%3A14437%3AStopPlace%3AAUTOxAL202305250956042825%3AATOUMOD&fv=Mondeville%20Centre%20Commercial%2C%20Mondeville&flat=49.1642&flon=-0.294805&ti=ADDRESS%7C49.43931%2C1.09671&tv=Docteur%20Geek%2C%202%2C%20Rouen&tlat=49.43931&tlon=1.09671&dt=2023-12-04T09%3A08%3A52.014%2B00%3A00&a=false&sl=false&ad=false",
+      "departureDateTime": "2023-12-04T09:08:52.014+00:00"
+    }
+  },
+  "estimatedResults": true,
+  "errors": [],
+  "groups": [
+    {
+      "name": "Public transport",
+      "journeys": [
+        {
+          "id": "9c166f5c-5dd2-465e-bf44-afc0fb3b52e3",
+          "start_date": "2023-12-04T11:37:27+0100",
+          "arrival_date": "2023-12-04T14:12:14+0100",
+          "duration": 9287,
+          "co2_information": {
+            "co2": 3929,
+            "carCo2": 28233,
+            "label": "B"
+          },
+          "pricing": {
+            "total_cost": null,
+            "currency": "EUR"
+          },
+          "is_summary_available": true,
+          "journey_summary_code": "%7B%22p%22:%7B%22wt%22:%222023-12-04T10:38:52+0100%22,%22f%22:%22STOPAREA%7CFR:14437:StopPlace:AUTOxAL202305250956042825:ATOUMOD%22,%22t%22:%22ADDRESS%7C49.43931,1.09671%22,%22r%22:false,%22bs%22:1,%22v%22:%5B%5D%7D,%22j%22:%7B%22p%22:%5B%7B%22m%22:%22BUS%22,%22f%22:%22STOPPOINT%7CFR:14437:Quay:mocc01:TWISTO%22,%22t%22:%22STOPPOINT%7CFR:14118:Quay:gasn11:TWISTO%22,%22sd%22:%222023-12-04T11:37:27+0100%22,%22ad%22:%222023-12-04T11:53:27+0100%22,%22dti%22:%22ATOUMOD#R#TWISTO:ServiceJourney:5382727x23HIV01xMULTISAExSemainex05:LOC#1#FR:14437:Quay:mocc01:TWISTO%22,%22ati%22:%22ATOUMOD#R#TWISTO:ServiceJourney:5382727x23HIV01xMULTISAExSemainex05:LOC#11#FR:14118:Quay:gasn11:TWISTO%22%7D,%7B%22m%22:%22WALK%22,%22f%22:%22STOPPOINT%7CFR:14118:Quay:gasn11:TWISTO%22,%22t%22:%22STOPPOINT%7CFR:14118:Quay:87444000_RWY:SNCF%22,%22sd%22:%222023-12-04T11:55:27+0100%22,%22ad%22:%222023-12-04T11:57:43+0100%22,%22dti%22:null,%22ati%22:null%7D,%7B%22m%22:%22WAITING%22,%22f%22:%22STOPPOINT%7CFR:14118:Quay:87444000_RWY:SNCF%22,%22t%22:%22STOPPOINT%7CFR:14118:Quay:87444000_RWY:SNCF%22,%22sd%22:%222023-12-04T11:57:43+0100%22,%22ad%22:%222023-12-04T12:04:27+0100%22,%22dti%22:null,%22ati%22:null%7D,%7B%22m%22:%22TRAIN%22,%22f%22:%22STOPPOINT%7CFR:14118:Quay:87444000_RWY:SNCF%22,%22t%22:%22STOPPOINT%7CFR:76540:Quay:87411017_RWY:SNCF%22,%22sd%22:%222023-12-04T12:06:27+0100%22,%22ad%22:%222023-12-04T13:52:27+0100%22,%22dti%22:%22ATOUMOD#R#SNCF:ServiceJourney:OCESN852008F1161806:LOC#1#FR:14118:Quay:87444000_RWY:SNCF%22,%22ati%22:%22ATOUMOD#R#SNCF:ServiceJourney:OCESN852008F1161806:LOC#9#FR:76540:Quay:87411017_RWY:SNCF%22%7D,%7B%22m%22:%22WALK%22,%22f%22:%22STOPPOINT%7CFR:76540:Quay:87411017_RWY:SNCF%22,%22t%22:%22STOPPOINT%7CFR:76540:Quay:13151:TCAR%22,%22sd%22:%222023-12-04T13:54:27+0100%22,%22ad%22:%222023-12-04T13:57:06+0100%22,%22dti%22:null,%22ati%22:null%7D,%7B%22m%22:%22WAITING%22,%22f%22:%22STOPPOINT%7CFR:76540:Quay:13151:TCAR%22,%22t%22:%22STOPPOINT%7CFR:76540:Quay:13151:TCAR%22,%22sd%22:%222023-12-04T13:57:06+0100%22,%22ad%22:%222023-12-04T14:00:27+0100%22,%22dti%22:null,%22ati%22:null%7D,%7B%22m%22:%22BUS%22,%22f%22:%22STOPPOINT%7CFR:76540:Quay:13151:TCAR%22,%22t%22:%22STOPPOINT%7CFR:76540:Quay:11460:TCAR%22,%22sd%22:%222023-12-04T14:02:27+0100%22,%22ad%22:%222023-12-04T14:11:27+0100%22,%22dti%22:%22ATOUMOD#R#TCAR:ServiceJourney:31589:LOC#17#FR:76540:Quay:13151:TCAR%22,%22ati%22:%22ATOUMOD#R#TCAR:ServiceJourney:31589:LOC#22#FR:76540:Quay:11460:TCAR%22%7D,%7B%22m%22:%22WALK%22,%22f%22:%22STOPPOINT%7CFR:76540:Quay:11460:TCAR%22,%22t%22:%22ADDRESS%7C49.43931,1.09671%22,%22sd%22:%222023-12-04T14:11:27+0100%22,%22ad%22:%222023-12-04T14:12:14+0100%22,%22dti%22:null,%22ati%22:null%7D%5D%7D%7D",
+          "trip_detailed_required": false,
+          "criterion": "",
+          "paths": [
+            {
+              "hide": false,
+              "mode": "BUS",
+              "start_date": "2023-12-04T11:37:27+0100",
+              "end_date": "2023-12-04T11:53:27+0100",
+              "duration": 960,
+              "distance": 4192,
+              "shapes": [
+                "ckakHrqx@f@a@BAFAF@|Cx@JF@?DDBBBBBD?J@HALATQxBO@GDIJCJCRAJ@N@JBHBJDFFDFBH@FAHCFET?L@NFVLLv@Dn@Al@AZGn@Eh@Cp@?d@?v@?r@@l@@`@CjAAfACr@ClAE`ACd@ALEb@_@zBMz@Kp@CJ?Tg@pBgBpHi@fCKf@WdAAHGNMJe@~AKTIPKRINM@G?OFMLCFEHEPAN?P?L@NDPBFDHFFHFFDH@LNDJBL@R?RAZAT?\\E?GHGDEDEHGNGJIT????IVSn@iEnQYpAg@xBMd@????_AbEy@hD]`BMf@[rAa@|AGN????EPCBUt@O\\Od@u@zCc@tBENU|@aBlHCJAPCLATQ?Q@g@tBABeArE]tA????uD`PU~@WbAIZENINc@lB[nAOl@?????@I^k@hCI\\Ir@GTQt@Kb@I^????MZK^_@vA?RWfAYnAMh@K^GXiA|E_@`BYhAWhAm@nC????YnA{@pDId@Wx@CEEAIAE@CDEHCPAJAJ?J@R@LBH@p@???@@ND~@Bl@?nBArAC`B?^?^CrAA`BCdECtB?x@?????JArACpA?NCZEz@aDjI}A~@vA`KPfA"
+              ],
+              "actions": null,
+              "start": {
+                "type": "STOPPOINT",
+                "id": "FR:14437:Quay:mocc01:TWISTO",
+                "name": "Mondeville Centre Commercial",
+                "lat": 49.1642,
+                "lon": -0.294805,
+                "city": "Mondeville",
+                "stopareaid": "FR:14437:StopPlace:AUTOxAL202305250956042825:ATOUMOD",
+                "timetableid": "ATOUMOD#R#TWISTO:ServiceJourney:5382727x23HIV01xMULTISAExSemainex05:LOC#1#FR:14437:Quay:mocc01:TWISTO",
+                "realtime": 0,
+                "timetableinfo": "",
+                "hide": true
+              },
+              "end": {
+                "type": "STOPPOINT",
+                "id": "FR:14118:Quay:gasn11:TWISTO",
+                "name": "Gare SNCF",
+                "lat": 49.17554,
+                "lon": -0.349328,
+                "city": "Caen",
+                "stopareaid": "FR:14118:StopPlace:AUTOxAL2022092617570932701:ATOUMOD",
+                "timetableid": "ATOUMOD#R#TWISTO:ServiceJourney:5382727x23HIV01xMULTISAExSemainex05:LOC#11#FR:14118:Quay:gasn11:TWISTO",
+                "realtime": 0,
+                "timetableinfo": ""
+              },
+              "extra_datas": {
+                "type": "public_transport",
+                "id": "TWISTO:Line:1:LOC",
+                "color": "#d8005b",
+                "text_color": "#ffffff",
+                "sub_network": {
+                  "id": "TWISTO:Network:29:LOC",
+                  "name": "Twisto (Caen la mer)"
+                },
+                "number": "1",
+                "destination": "Chemin Vert",
+                "direction": "RETURN",
+                "stops": [
+                  {
+                    "id": "FR:14437:Quay:zimo01:TWISTO",
+                    "name": "Mondeville ZI",
+                    "city": "Mondeville",
+                    "lat": 49.16501,
+                    "lon": -0.309529,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:14437:Quay:robo01:TWISTO",
+                    "name": "Robert Bosch",
+                    "city": "Mondeville",
+                    "lat": 49.166492,
+                    "lon": -0.313951,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:14437:Quay:ccou01:TWISTO",
+                    "name": "Charles de Coulomb",
+                    "city": "Mondeville",
+                    "lat": 49.167675,
+                    "lon": -0.317543,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:14437:Quay:rtpa01:TWISTO",
+                    "name": "Route de Paris",
+                    "city": "Mondeville",
+                    "lat": 49.170048,
+                    "lon": -0.323868,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:14437:Quay:mafo01:TWISTO",
+                    "name": "Maurice Fouques",
+                    "city": "Mondeville",
+                    "lat": 49.171696,
+                    "lon": -0.328739,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:14118:Quay:bart11:TWISTO",
+                    "name": "Barthou",
+                    "city": "Caen",
+                    "lat": 49.1724,
+                    "lon": -0.330859,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:14118:Quay:parp01:TWISTO",
+                    "name": "Pasteur",
+                    "city": "Mondeville",
+                    "lat": 49.17406,
+                    "lon": -0.335882,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:14118:Quay:delu01:TWISTO",
+                    "name": "Demi-Lune",
+                    "city": "Caen",
+                    "lat": 49.17484,
+                    "lon": -0.338471,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:14118:Quay:ruau01:TWISTO",
+                    "name": "Rue d'Auge",
+                    "city": "Caen",
+                    "lat": 49.17484,
+                    "lon": -0.343669,
+                    "realtime": 0
+                  }
+                ],
+                "disruptions": {
+                  "total": 7,
+                  "maxCriticity": "CRITICAL",
+                  "items": [
+                    "7acde782-73b0-4412-9290-19123237fd90",
+                    "3bd73514-a3a3-4102-be9a-d4dded4827d9",
+                    "98313adc-33a8-4f2d-80cc-4db695005821",
+                    "c15a3bc3-c2a8-4c12-bdbb-a6486d0d7be1",
+                    "3bd73514-a3a3-4102-be9a-d4dded4827d9",
+                    "98313adc-33a8-4f2d-80cc-4db695005821",
+                    "c15a3bc3-c2a8-4c12-bdbb-a6486d0d7be1"
+                  ]
+                }
+              }
+            },
+            {
+              "hide": true,
+              "mode": "WALK",
+              "start_date": "2023-12-04T11:55:27+0100",
+              "end_date": "2023-12-04T11:57:43+0100",
+              "duration": 136,
+              "distance": 227,
+              "shapes": [
+                "qqckH~ecAgBaKyAv@Hd@KF"
+              ],
+              "actions": null,
+              "start": {
+                "type": "STOPPOINT",
+                "id": "FR:14118:Quay:gasn11:TWISTO",
+                "name": "Gare SNCF",
+                "lat": 49.17554,
+                "lon": -0.349328,
+                "city": "Caen",
+                "postalCode": "",
+                "realtime": 0,
+                "hide": true
+              },
+              "end": {
+                "type": "STOPPOINT",
+                "id": "FR:14118:Quay:87444000_RWY:SNCF",
+                "name": "Gare de Caen",
+                "lat": 49.176545,
+                "lon": -0.348262,
+                "city": "Caen",
+                "postalCode": "",
+                "realtime": 0,
+                "hide": true
+              }
+            },
+            {
+              "hide": false,
+              "mode": "TRAIN",
+              "start_date": "2023-12-04T12:06:27+0100",
+              "end_date": "2023-12-04T13:52:27+0100",
+              "duration": 6360,
+              "distance": 110052,
+              "shapes": [
+                "mxckHr_cAlsS{jt@??idLszz@??j_IccfA??g_C{cW??_jPpo@??qtVywW??`{A{p`@??{r[}kO"
+              ],
+              "actions": null,
+              "start": {
+                "type": "STOPPOINT",
+                "id": "FR:14118:Quay:87444000_RWY:SNCF",
+                "name": "Gare de Caen",
+                "lat": 49.176545,
+                "lon": -0.348262,
+                "city": "Caen",
+                "stopareaid": "FR:14118:StopPlace:AUTOxAL2022092617570947850:ATOUMOD",
+                "timetableid": "ATOUMOD#R#SNCF:ServiceJourney:OCESN852008F1161806:LOC#1#FR:14118:Quay:87444000_RWY:SNCF",
+                "realtime": 0,
+                "timetableinfo": ""
+              },
+              "end": {
+                "type": "STOPPOINT",
+                "id": "FR:76540:Quay:87411017_RWY:SNCF",
+                "name": "Gare de Rouen Rive Droite",
+                "lat": 49.449367,
+                "lon": 1.094233,
+                "city": "Rouen",
+                "stopareaid": "FR:76540:StopPlace:AUTOxAL2022092617570927405:ATOUMOD",
+                "timetableid": "ATOUMOD#R#SNCF:ServiceJourney:OCESN852008F1161806:LOC#9#FR:76540:Quay:87411017_RWY:SNCF",
+                "realtime": 0,
+                "timetableinfo": ""
+              },
+              "extra_datas": {
+                "type": "public_transport",
+                "id": "SNCF:Line:1067:LOC",
+                "color": "#932b6e",
+                "text_color": "#ffffff",
+                "sub_network": {
+                  "id": "SNCF:Network:SNCF:LOC",
+                  "name": "Nomad Train (SNCF Normandie)"
+                },
+                "number": "TRAIN",
+                "destination": "Gare de Rouen Rive Droite",
+                "direction": "RETURN",
+                "stops": [
+                  {
+                    "id": "FR:14431:Quay:87444208:SNCF",
+                    "name": "Gare de Mézidon - Canon",
+                    "city": "Mézidon Vallée d'Auge",
+                    "lat": 49.070881,
+                    "lon": -0.075003,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:14366:Quay:87444265_RWY:SNCF",
+                    "name": "Gare de Lisieux",
+                    "city": "Lisieux",
+                    "lat": 49.138292,
+                    "lon": 0.231502,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:27056:Quay:87444299:SNCF",
+                    "name": "Gare de Bernay",
+                    "city": "Bernay",
+                    "lat": 49.08703,
+                    "lon": 0.595684,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:27622:Quay:87444315:SNCF",
+                    "name": "Gare de Serquigny",
+                    "city": "Serquigny",
+                    "lat": 49.107552,
+                    "lon": 0.719342,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:27116:Quay:87415364:SNCF",
+                    "name": "Gare de Brionne",
+                    "city": "Brionne",
+                    "lat": 49.196347,
+                    "lon": 0.711567,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:27105:Quay:87415323:SNCF",
+                    "name": "Gare de Bourgtheroulde - Thuit-Hébert",
+                    "city": "Grand Bourgtheroulde",
+                    "lat": 49.31756,
+                    "lon": 0.838417,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:76561:Quay:87411173:SNCF",
+                    "name": "Gare de Elbeuf - Saint-Aubin",
+                    "city": "Saint-Aubin-lès-Elbeuf",
+                    "lat": 49.302827,
+                    "lon": 1.010236,
+                    "realtime": 0
+                  }
+                ],
+                "waiting_duration": 404
+              }
+            },
+            {
+              "hide": true,
+              "mode": "WALK",
+              "start_date": "2023-12-04T13:54:27+0100",
+              "end_date": "2023-12-04T13:57:06+0100",
+              "duration": 159,
+              "distance": 352,
+              "shapes": [
+                "qaylHwutEICBWnCZBFB??Cn@M\\QZB^RnA^NKHRJj@EZa@WIAEAEIFGMKo@M"
+              ],
+              "actions": null,
+              "start": {
+                "type": "STOPPOINT",
+                "id": "FR:76540:Quay:87411017_RWY:SNCF",
+                "name": "Gare de Rouen Rive Droite",
+                "lat": 49.449367,
+                "lon": 1.094233,
+                "city": "Rouen",
+                "postalCode": "",
+                "realtime": 0,
+                "hide": true
+              },
+              "end": {
+                "type": "STOPPOINT",
+                "id": "FR:76540:Quay:13151:TCAR",
+                "name": "Gare-Rue Verte",
+                "lat": 49.447942,
+                "lon": 1.094015,
+                "city": "Rouen",
+                "postalCode": "",
+                "realtime": 0,
+                "hide": true
+              }
+            },
+            {
+              "hide": false,
+              "mode": "BUS",
+              "start_date": "2023-12-04T14:02:27+0100",
+              "end_date": "2023-12-04T14:11:27+0100",
+              "duration": 540,
+              "distance": 946,
+              "shapes": [
+                "uwxlHkrtE??\\[DEFK^ZDBVLLFJFJD\\RPHlAp@VLXLnB`A??@?VNLFLFfBz@@B\\NHy@@KLkAD]TsBDc@Fa@NwA???CJy@@S@KDYJaA@IBURmB@I@C@M@I@I@IZ{CB[@Ib@eE@GBWRHB?tA`@H?D?NELKe@Mg@OA?QECK]GFw@~Bh@Ep@UGGQOCOS??~JzC??H@FBTHZLFBrCbAB@lZdG??To@JHTVJBNAHGn@qABQ@K?IG[GOQOEACEEEKX_AlCIIUWHpAgXcF"
+              ],
+              "actions": null,
+              "start": {
+                "type": "STOPPOINT",
+                "id": "FR:76540:Quay:13151:TCAR",
+                "name": "Gare-Rue Verte",
+                "lat": 49.447942,
+                "lon": 1.094015,
+                "city": "Rouen",
+                "wheelchairboarding": "YES",
+                "stopareaid": "FR:76540:StopPlace:AUTOxAL2022092617570927405:ATOUMOD",
+                "timetableid": "ATOUMOD#R#TCAR:ServiceJourney:31589:LOC#17#FR:76540:Quay:13151:TCAR",
+                "realtime": 0,
+                "timetableinfo": ""
+              },
+              "end": {
+                "type": "STOPPOINT",
+                "id": "FR:76540:Quay:11460:TCAR",
+                "name": "République",
+                "lat": 49.439672,
+                "lon": 1.097054,
+                "city": "Rouen",
+                "wheelchairboarding": "YES",
+                "stopareaid": "FR:76540:StopPlace:AUTOxAL2022092617570928653:ATOUMOD",
+                "timetableid": "ATOUMOD#R#TCAR:ServiceJourney:31589:LOC#22#FR:76540:Quay:11460:TCAR",
+                "realtime": 0,
+                "timetableinfo": ""
+              },
+              "extra_datas": {
+                "type": "public_transport",
+                "id": "TCAR:Line:11:LOC",
+                "color": "#00ACE5",
+                "text_color": "#ffffff",
+                "sub_network": {
+                  "id": "TCAR:Network:1:LOC",
+                  "name": "Astuce (Métropole Rouen Normandie)"
+                },
+                "number": "11",
+                "destination": "Ile Lacroix",
+                "direction": "OUTWARD",
+                "stops": [
+                  {
+                    "id": "FR:76540:Quay:12568:TCAR",
+                    "name": "Square Verdrel",
+                    "city": "Rouen",
+                    "lat": 49.445637,
+                    "lon": 1.092638,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:76540:Quay:10098:TCAR",
+                    "name": "Beaux Arts",
+                    "city": "Rouen",
+                    "lat": 49.444226,
+                    "lon": 1.094367,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:76540:Quay:12733:TCAR",
+                    "name": "Hôtel de Ville",
+                    "city": "Rouen",
+                    "lat": 49.443058,
+                    "lon": 1.098653,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:76540:Quay:13014:TCAR",
+                    "name": "Saint-Nicolas",
+                    "city": "Rouen",
+                    "lat": 49.441162,
+                    "lon": 1.097775,
+                    "realtime": 0
+                  }
+                ],
+                "waiting_duration": 201
+              }
+            },
+            {
+              "hide": true,
+              "mode": "WALK",
+              "start_date": "2023-12-04T14:11:27+0100",
+              "end_date": "2023-12-04T14:12:14+0100",
+              "duration": 47,
+              "distance": 66,
+              "shapes": [
+                "}dwlHwguEZD|@\\Cf@"
+              ],
+              "actions": null,
+              "start": {
+                "type": "STOPPOINT",
+                "id": "FR:76540:Quay:11460:TCAR",
+                "name": "République",
+                "lat": 49.439672,
+                "lon": 1.097054,
+                "city": "Rouen",
+                "postalCode": "",
+                "realtime": 0,
+                "hide": true
+              },
+              "end": {
+                "type": "ADDRESS",
+                "id": "49.43931,1.09671",
+                "name": "Docteur Geek, 2, Rouen",
+                "lat": 49.43931,
+                "lon": 1.09671,
+                "city": "",
+                "postalCode": "",
+                "realtime": 0,
+                "hide": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "3dc71a30-0ea5-4ee3-bdb3-ee8b6c8a0b3e",
+          "start_date": "2023-12-04T13:37:27+0100",
+          "arrival_date": "2023-12-04T16:09:14+0100",
+          "duration": 9107,
+          "co2_information": {
+            "co2": 3929,
+            "carCo2": 28233,
+            "label": "B"
+          },
+          "pricing": {
+            "total_cost": null,
+            "currency": "EUR"
+          },
+          "is_summary_available": true,
+          "journey_summary_code": "%7B%22p%22:%7B%22wt%22:%222023-12-04T10:38:52+0100%22,%22f%22:%22STOPAREA%7CFR:14437:StopPlace:AUTOxAL202305250956042825:ATOUMOD%22,%22t%22:%22ADDRESS%7C49.43931,1.09671%22,%22r%22:false,%22bs%22:1,%22v%22:%5B%5D%7D,%22j%22:%7B%22p%22:%5B%7B%22m%22:%22BUS%22,%22f%22:%22STOPPOINT%7CFR:14437:Quay:mocc01:TWISTO%22,%22t%22:%22STOPPOINT%7CFR:14118:Quay:gasn11:TWISTO%22,%22sd%22:%222023-12-04T13:37:27+0100%22,%22ad%22:%222023-12-04T13:53:27+0100%22,%22dti%22:%22ATOUMOD#R#TWISTO:ServiceJourney:5382714x23HIV01xMULTISAExSemainex05:LOC#1#FR:14437:Quay:mocc01:TWISTO%22,%22ati%22:%22ATOUMOD#R#TWISTO:ServiceJourney:5382714x23HIV01xMULTISAExSemainex05:LOC#11#FR:14118:Quay:gasn11:TWISTO%22%7D,%7B%22m%22:%22WALK%22,%22f%22:%22STOPPOINT%7CFR:14118:Quay:gasn11:TWISTO%22,%22t%22:%22STOPPOINT%7CFR:14118:Quay:87444000_RWY:SNCF%22,%22sd%22:%222023-12-04T13:55:27+0100%22,%22ad%22:%222023-12-04T13:57:43+0100%22,%22dti%22:null,%22ati%22:null%7D,%7B%22m%22:%22WAITING%22,%22f%22:%22STOPPOINT%7CFR:14118:Quay:87444000_RWY:SNCF%22,%22t%22:%22STOPPOINT%7CFR:14118:Quay:87444000_RWY:SNCF%22,%22sd%22:%222023-12-04T13:57:43+0100%22,%22ad%22:%222023-12-04T14:04:27+0100%22,%22dti%22:null,%22ati%22:null%7D,%7B%22m%22:%22TRAIN%22,%22f%22:%22STOPPOINT%7CFR:14118:Quay:87444000_RWY:SNCF%22,%22t%22:%22STOPPOINT%7CFR:76540:Quay:87411017_RWY:SNCF%22,%22sd%22:%222023-12-04T14:06:27+0100%22,%22ad%22:%222023-12-04T15:46:27+0100%22,%22dti%22:%22ATOUMOD#R#SNCF:ServiceJourney:OCESN036852R1166659:LOC#1#FR:14118:Quay:87444000_RWY:SNCF%22,%22ati%22:%22ATOUMOD#R#SNCF:ServiceJourney:OCESN036852R1166659:LOC#6#FR:76540:Quay:87411017_RWY:SNCF%22%7D,%7B%22m%22:%22WALK%22,%22f%22:%22STOPPOINT%7CFR:76540:Quay:87411017_RWY:SNCF%22,%22t%22:%22STOPPOINT%7CFR:76540:Quay:13151:TCAR%22,%22sd%22:%222023-12-04T15:48:27+0100%22,%22ad%22:%222023-12-04T15:51:06+0100%22,%22dti%22:null,%22ati%22:null%7D,%7B%22m%22:%22WAITING%22,%22f%22:%22STOPPOINT%7CFR:76540:Quay:13151:TCAR%22,%22t%22:%22STOPPOINT%7CFR:76540:Quay:13151:TCAR%22,%22sd%22:%222023-12-04T15:51:06+0100%22,%22ad%22:%222023-12-04T15:56:27+0100%22,%22dti%22:null,%22ati%22:null%7D,%7B%22m%22:%22BUS%22,%22f%22:%22STOPPOINT%7CFR:76540:Quay:13151:TCAR%22,%22t%22:%22STOPPOINT%7CFR:76540:Quay:11460:TCAR%22,%22sd%22:%222023-12-04T15:58:27+0100%22,%22ad%22:%222023-12-04T16:08:27+0100%22,%22dti%22:%22ATOUMOD#R#TCAR:ServiceJourney:30339:LOC#12#FR:76540:Quay:13151:TCAR%22,%22ati%22:%22ATOUMOD#R#TCAR:ServiceJourney:30339:LOC#17#FR:76540:Quay:11460:TCAR%22%7D,%7B%22m%22:%22WALK%22,%22f%22:%22STOPPOINT%7CFR:76540:Quay:11460:TCAR%22,%22t%22:%22ADDRESS%7C49.43931,1.09671%22,%22sd%22:%222023-12-04T16:08:27+0100%22,%22ad%22:%222023-12-04T16:09:14+0100%22,%22dti%22:null,%22ati%22:null%7D%5D%7D%7D",
+          "trip_detailed_required": false,
+          "criterion": "",
+          "paths": [
+            {
+              "hide": false,
+              "mode": "BUS",
+              "start_date": "2023-12-04T13:37:27+0100",
+              "end_date": "2023-12-04T13:53:27+0100",
+              "duration": 960,
+              "distance": 4192,
+              "shapes": [
+                "ckakHrqx@f@a@BAFAF@|Cx@JF@?DDBBBBBD?J@HALATQxBO@GDIJCJCRAJ@N@JBHBJDFFDFBH@FAHCFET?L@NFVLLv@Dn@Al@AZGn@Eh@Cp@?d@?v@?r@@l@@`@CjAAfACr@ClAE`ACd@ALEb@_@zBMz@Kp@CJ?Tg@pBgBpHi@fCKf@WdAAHGNMJe@~AKTIPKRINM@G?OFMLCFEHEPAN?P?L@NDPBFDHFFHFFDH@LNDJBL@R?RAZAT?\\E?GHGDEDEHGNGJIT????IVSn@iEnQYpAg@xBMd@????_AbEy@hD]`BMf@[rAa@|AGN????EPCBUt@O\\Od@u@zCc@tBENU|@aBlHCJAPCLATQ?Q@g@tBABeArE]tA????uD`PU~@WbAIZENINc@lB[nAOl@?????@I^k@hCI\\Ir@GTQt@Kb@I^????MZK^_@vA?RWfAYnAMh@K^GXiA|E_@`BYhAWhAm@nC????YnA{@pDId@Wx@CEEAIAE@CDEHCPAJAJ?J@R@LBH@p@???@@ND~@Bl@?nBArAC`B?^?^CrAA`BCdECtB?x@?????JArACpA?NCZEz@aDjI}A~@vA`KPfA"
+              ],
+              "actions": null,
+              "start": {
+                "type": "STOPPOINT",
+                "id": "FR:14437:Quay:mocc01:TWISTO",
+                "name": "Mondeville Centre Commercial",
+                "lat": 49.1642,
+                "lon": -0.294805,
+                "city": "Mondeville",
+                "stopareaid": "FR:14437:StopPlace:AUTOxAL202305250956042825:ATOUMOD",
+                "timetableid": "ATOUMOD#R#TWISTO:ServiceJourney:5382714x23HIV01xMULTISAExSemainex05:LOC#1#FR:14437:Quay:mocc01:TWISTO",
+                "realtime": 0,
+                "timetableinfo": "",
+                "hide": true
+              },
+              "end": {
+                "type": "STOPPOINT",
+                "id": "FR:14118:Quay:gasn11:TWISTO",
+                "name": "Gare SNCF",
+                "lat": 49.17554,
+                "lon": -0.349328,
+                "city": "Caen",
+                "stopareaid": "FR:14118:StopPlace:AUTOxAL2022092617570932701:ATOUMOD",
+                "timetableid": "ATOUMOD#R#TWISTO:ServiceJourney:5382714x23HIV01xMULTISAExSemainex05:LOC#11#FR:14118:Quay:gasn11:TWISTO",
+                "realtime": 0,
+                "timetableinfo": ""
+              },
+              "extra_datas": {
+                "type": "public_transport",
+                "id": "TWISTO:Line:1:LOC",
+                "color": "#d8005b",
+                "text_color": "#ffffff",
+                "sub_network": {
+                  "id": "TWISTO:Network:29:LOC",
+                  "name": "Twisto (Caen la mer)"
+                },
+                "number": "1",
+                "destination": "Chemin Vert",
+                "direction": "RETURN",
+                "stops": [
+                  {
+                    "id": "FR:14437:Quay:zimo01:TWISTO",
+                    "name": "Mondeville ZI",
+                    "city": "Mondeville",
+                    "lat": 49.16501,
+                    "lon": -0.309529,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:14437:Quay:robo01:TWISTO",
+                    "name": "Robert Bosch",
+                    "city": "Mondeville",
+                    "lat": 49.166492,
+                    "lon": -0.313951,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:14437:Quay:ccou01:TWISTO",
+                    "name": "Charles de Coulomb",
+                    "city": "Mondeville",
+                    "lat": 49.167675,
+                    "lon": -0.317543,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:14437:Quay:rtpa01:TWISTO",
+                    "name": "Route de Paris",
+                    "city": "Mondeville",
+                    "lat": 49.170048,
+                    "lon": -0.323868,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:14437:Quay:mafo01:TWISTO",
+                    "name": "Maurice Fouques",
+                    "city": "Mondeville",
+                    "lat": 49.171696,
+                    "lon": -0.328739,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:14118:Quay:bart11:TWISTO",
+                    "name": "Barthou",
+                    "city": "Caen",
+                    "lat": 49.1724,
+                    "lon": -0.330859,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:14118:Quay:parp01:TWISTO",
+                    "name": "Pasteur",
+                    "city": "Mondeville",
+                    "lat": 49.17406,
+                    "lon": -0.335882,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:14118:Quay:delu01:TWISTO",
+                    "name": "Demi-Lune",
+                    "city": "Caen",
+                    "lat": 49.17484,
+                    "lon": -0.338471,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:14118:Quay:ruau01:TWISTO",
+                    "name": "Rue d'Auge",
+                    "city": "Caen",
+                    "lat": 49.17484,
+                    "lon": -0.343669,
+                    "realtime": 0
+                  }
+                ],
+                "disruptions": {
+                  "total": 7,
+                  "maxCriticity": "CRITICAL",
+                  "items": [
+                    "7acde782-73b0-4412-9290-19123237fd90",
+                    "3bd73514-a3a3-4102-be9a-d4dded4827d9",
+                    "98313adc-33a8-4f2d-80cc-4db695005821",
+                    "c15a3bc3-c2a8-4c12-bdbb-a6486d0d7be1",
+                    "3bd73514-a3a3-4102-be9a-d4dded4827d9",
+                    "98313adc-33a8-4f2d-80cc-4db695005821",
+                    "c15a3bc3-c2a8-4c12-bdbb-a6486d0d7be1"
+                  ]
+                }
+              }
+            },
+            {
+              "hide": true,
+              "mode": "WALK",
+              "start_date": "2023-12-04T13:55:27+0100",
+              "end_date": "2023-12-04T13:57:43+0100",
+              "duration": 136,
+              "distance": 227,
+              "shapes": [
+                "qqckH~ecAgBaKyAv@Hd@KF"
+              ],
+              "actions": null,
+              "start": {
+                "type": "STOPPOINT",
+                "id": "FR:14118:Quay:gasn11:TWISTO",
+                "name": "Gare SNCF",
+                "lat": 49.17554,
+                "lon": -0.349328,
+                "city": "Caen",
+                "postalCode": "",
+                "realtime": 0,
+                "hide": true
+              },
+              "end": {
+                "type": "STOPPOINT",
+                "id": "FR:14118:Quay:87444000_RWY:SNCF",
+                "name": "Gare de Caen",
+                "lat": 49.176545,
+                "lon": -0.348262,
+                "city": "Caen",
+                "postalCode": "",
+                "realtime": 0,
+                "hide": true
+              }
+            },
+            {
+              "hide": false,
+              "mode": "TRAIN",
+              "start_date": "2023-12-04T14:06:27+0100",
+              "end_date": "2023-12-04T15:46:27+0100",
+              "duration": 6000,
+              "distance": 110052,
+              "shapes": [
+                "mxckHr_cAcht@qvxG"
+              ],
+              "actions": null,
+              "start": {
+                "type": "STOPPOINT",
+                "id": "FR:14118:Quay:87444000_RWY:SNCF",
+                "name": "Gare de Caen",
+                "lat": 49.176545,
+                "lon": -0.348262,
+                "city": "Caen",
+                "stopareaid": "FR:14118:StopPlace:AUTOxAL2022092617570947850:ATOUMOD",
+                "timetableid": "ATOUMOD#R#SNCF:ServiceJourney:OCESN036852R1166659:LOC#1#FR:14118:Quay:87444000_RWY:SNCF",
+                "realtime": 0,
+                "timetableinfo": ""
+              },
+              "end": {
+                "type": "STOPPOINT",
+                "id": "FR:76540:Quay:87411017_RWY:SNCF",
+                "name": "Gare de Rouen Rive Droite",
+                "lat": 49.449367,
+                "lon": 1.094233,
+                "city": "Rouen",
+                "stopareaid": "FR:76540:StopPlace:AUTOxAL2022092617570927405:ATOUMOD",
+                "timetableid": "ATOUMOD#R#SNCF:ServiceJourney:OCESN036852R1166659:LOC#6#FR:76540:Quay:87411017_RWY:SNCF",
+                "realtime": 0,
+                "timetableinfo": ""
+              },
+              "extra_datas": {
+                "type": "public_transport",
+                "id": "SNCF:Line:1017:LOC",
+                "color": "#932b6e",
+                "text_color": "#ffffff",
+                "sub_network": {
+                  "id": "SNCF:Network:SNCF:LOC",
+                  "name": "Nomad Train (SNCF Normandie)"
+                },
+                "number": "TRAIN",
+                "destination": "Gare de Rouen Rive Droite",
+                "direction": "RETURN",
+                "stops": [],
+                "waiting_duration": 404
+              }
+            },
+            {
+              "hide": true,
+              "mode": "WALK",
+              "start_date": "2023-12-04T15:48:27+0100",
+              "end_date": "2023-12-04T15:51:06+0100",
+              "duration": 159,
+              "distance": 352,
+              "shapes": [
+                "qaylHwutEICBWnCZBFB??Cn@M\\QZB^RnA^NKHRJj@EZa@WIAEAEIFGMKo@M"
+              ],
+              "actions": null,
+              "start": {
+                "type": "STOPPOINT",
+                "id": "FR:76540:Quay:87411017_RWY:SNCF",
+                "name": "Gare de Rouen Rive Droite",
+                "lat": 49.449367,
+                "lon": 1.094233,
+                "city": "Rouen",
+                "postalCode": "",
+                "realtime": 0,
+                "hide": true
+              },
+              "end": {
+                "type": "STOPPOINT",
+                "id": "FR:76540:Quay:13151:TCAR",
+                "name": "Gare-Rue Verte",
+                "lat": 49.447942,
+                "lon": 1.094015,
+                "city": "Rouen",
+                "postalCode": "",
+                "realtime": 0,
+                "hide": true
+              }
+            },
+            {
+              "hide": false,
+              "mode": "BUS",
+              "start_date": "2023-12-04T15:58:27+0100",
+              "end_date": "2023-12-04T16:08:27+0100",
+              "duration": 600,
+              "distance": 946,
+              "shapes": [
+                "uwxlHkrtE??\\[DEFK^ZDBVLLFJFJD\\RPHlAp@VLXLnB`A??@?VNLFLFfBz@@B\\NHy@@KLkAD]TsBDc@Fa@NwA???CJy@@S@KDYJaA@IBURmB@I@C@M@I@I@IZ{CB[@Ib@eE@GBWRHB?tA`@H?D?NELKe@Mg@OA?QECK]GFw@~Bh@Ep@UGGQOCOS??~JzC??H@FBTHZLFBrCbAB@lZdG??To@JHTVJBNAHGn@qABQ@K?IG[GOQOEACEEEKX_AlCIIUWHpAgXcF"
+              ],
+              "actions": null,
+              "start": {
+                "type": "STOPPOINT",
+                "id": "FR:76540:Quay:13151:TCAR",
+                "name": "Gare-Rue Verte",
+                "lat": 49.447942,
+                "lon": 1.094015,
+                "city": "Rouen",
+                "wheelchairboarding": "YES",
+                "stopareaid": "FR:76540:StopPlace:AUTOxAL2022092617570927405:ATOUMOD",
+                "timetableid": "ATOUMOD#R#TCAR:ServiceJourney:30339:LOC#12#FR:76540:Quay:13151:TCAR",
+                "realtime": 0,
+                "timetableinfo": ""
+              },
+              "end": {
+                "type": "STOPPOINT",
+                "id": "FR:76540:Quay:11460:TCAR",
+                "name": "République",
+                "lat": 49.439672,
+                "lon": 1.097054,
+                "city": "Rouen",
+                "wheelchairboarding": "YES",
+                "stopareaid": "FR:76540:StopPlace:AUTOxAL2022092617570928653:ATOUMOD",
+                "timetableid": "ATOUMOD#R#TCAR:ServiceJourney:30339:LOC#17#FR:76540:Quay:11460:TCAR",
+                "realtime": 0,
+                "timetableinfo": ""
+              },
+              "extra_datas": {
+                "type": "public_transport",
+                "id": "TCAR:Line:07:LOC",
+                "color": "#008F5B",
+                "text_color": "#ffffff",
+                "sub_network": {
+                  "id": "TCAR:Network:1:LOC",
+                  "name": "Astuce (Métropole Rouen Normandie)"
+                },
+                "number": "F7",
+                "destination": "Hôtel de Ville de Sotteville",
+                "direction": "OUTWARD",
+                "stops": [
+                  {
+                    "id": "FR:76540:Quay:12568:TCAR",
+                    "name": "Square Verdrel",
+                    "city": "Rouen",
+                    "lat": 49.445637,
+                    "lon": 1.092638,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:76540:Quay:10098:TCAR",
+                    "name": "Beaux Arts",
+                    "city": "Rouen",
+                    "lat": 49.444226,
+                    "lon": 1.094367,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:76540:Quay:12733:TCAR",
+                    "name": "Hôtel de Ville",
+                    "city": "Rouen",
+                    "lat": 49.443058,
+                    "lon": 1.098653,
+                    "realtime": 0
+                  },
+                  {
+                    "id": "FR:76540:Quay:13014:TCAR",
+                    "name": "Saint-Nicolas",
+                    "city": "Rouen",
+                    "lat": 49.441162,
+                    "lon": 1.097775,
+                    "realtime": 0
+                  }
+                ],
+                "waiting_duration": 321
+              }
+            },
+            {
+              "hide": true,
+              "mode": "WALK",
+              "start_date": "2023-12-04T16:08:27+0100",
+              "end_date": "2023-12-04T16:09:14+0100",
+              "duration": 47,
+              "distance": 66,
+              "shapes": [
+                "}dwlHwguEZD|@\\Cf@"
+              ],
+              "actions": null,
+              "start": {
+                "type": "STOPPOINT",
+                "id": "FR:76540:Quay:11460:TCAR",
+                "name": "République",
+                "lat": 49.439672,
+                "lon": 1.097054,
+                "city": "Rouen",
+                "postalCode": "",
+                "realtime": 0,
+                "hide": true
+              },
+              "end": {
+                "type": "ADDRESS",
+                "id": "49.43931,1.09671",
+                "name": "Docteur Geek, 2, Rouen",
+                "lat": 49.43931,
+                "lon": 1.09671,
+                "city": "",
+                "postalCode": "",
+                "realtime": 0,
+                "hide": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bike",
+      "journeys": [
+        {
+          "id": "411bad1d-0c26-49d8-bf39-d2bb3e044647",
+          "start_date": "2023-12-04T10:38:52+0100",
+          "arrival_date": "2023-12-04T21:29:12+0100",
+          "duration": 39020,
+          "co2_information": {
+            "co2": 2054,
+            "carCo2": 28233,
+            "label": "A"
+          },
+          "pricing": {
+            "total_cost": null,
+            "currency": "EUR"
+          },
+          "is_summary_available": false,
+          "journey_summary_code": "%7B%22p%22:%7B%22wt%22:%222023-12-04T10:38:52+0100%22,%22f%22:%22STOPAREA%7CFR:14437:StopPlace:AUTOxAL202305250956042825:ATOUMOD%22,%22t%22:%22ADDRESS%7C49.43931,1.09671%22,%22r%22:false,%22bs%22:1,%22v%22:%5B%5D%7D,%22j%22:%7B%22p%22:%5B%7B%22m%22:%22BIKE%22,%22f%22:%22STOPAREA%7CFR:14437:StopPlace:AUTOxAL202305250956042825:ATOUMOD%22,%22t%22:%22ADDRESS%7C49.43931,1.09671%22,%22sd%22:%222023-12-04T10:38:52+0100%22,%22ad%22:%222023-12-04T21:29:12+0100%22,%22dti%22:null,%22ati%22:null%7D%5D%7D%7D",
+          "trip_detailed_required": true,
+          "criterion": "FASTEST",
+          "_links": {
+            "alternate": {
+              "href": "/journeys/%7B%22p%22:%7B%22wt%22:%222023-12-04T10:38:52+0100%22,%22f%22:%22STOPAREA%7CFR:14437:StopPlace:AUTOxAL202305250956042825:ATOUMOD%22,%22t%22:%22ADDRESS%7C49.43931,1.09671%22,%22r%22:false,%22bs%22:1,%22v%22:%5B%5D%7D,%22j%22:%7B%22p%22:%5B%7B%22m%22:%22BIKE%22,%22f%22:%22STOPAREA%7CFR:14437:StopPlace:AUTOxAL202305250956042825:ATOUMOD%22,%22t%22:%22ADDRESS%7C49.43931,1.09671%22,%22sd%22:%222023-12-04T10:38:52+0100%22,%22ad%22:%222023-12-04T21:29:12+0100%22,%22dti%22:null,%22ati%22:null%7D%5D%7D%7D/detailed"
+            }
+          },
+          "paths": [
+            {
+              "hide": false,
+              "mode": "BIKE",
+              "start_date": "2023-12-04T10:38:52+0100",
+              "end_date": "2023-12-04T21:29:12+0100",
+              "duration": 39020,
+              "distance": 136926,
+              "shapes": [
+                "ekakHrqx@d@c@xBj@TqCOGvAuPcCu@B[KFk@UkIyBs@YuBg@mAQiBCeB@_DZeCd@uMtC@HrEm@tEs@w@wKJEBGBO?GKUO?s@uHu@cFwAgF_@cAIaA?WBGBSCSEGUMaAa@eBgA_@]IU@GIKCO@_@KGWAEPWBCPyAq@sBo@aFgA_AGiAc@a@WsDoC_Ak@_A]uAYkAIL{BLMB]ZuF`@oJReG?e@KGCkASgEUsAWgAo@gAKWMs@M_CCy@?oACaAGS?oDUa@_@{D]aFTSAk@MoCAeCB_EC}@i@}ED[JOx@c@LSBa@BoDn@eJfAq^Lsh@L}SdARPaGP_EfBiVHoFi@a@WCYBm@ZS@UEwAkAKSQo@[gEEiCEeOLoK?_Eg@oMSwA`DeC\\COwDKmEQGEI]{FQyFj@S?GQGuCm]@GCOCEIESsIo@up@SySBeAJS@[GYGII}@AwBFy@^w@HCLQBK?[CKU[Qu@WmCQyC]s\\nCa@pA{ApB}Dv@sAFI_BuCDGBU}@_F@]|A}@c@cChE}BcBkJFEDU?KCIOKG@y@eFCc@_A_GUmAKWiAgEq@yBjAuAnBaDxAmB|CmE`DwDdCoDrBqDlAqCd@yAZiDf@kLdAgIz@gFv@aDrBeGhDcJv@kBpAkClAmB|EaCrA{AbAcBlAeC|GiShAmBhBoDbCiEjAuDl@eDB]?_@Gy@O_AeAuGy@qEaCqPaEaVk@_B[u@e@w@qGaOYwA?oFIaECoGqAyJ]yBI_AJwCVgEDyBAaDYsOAuC\\qC^iCLeBAaA]gHSuGCoBW_Ce@yCgCuH{DkMsByF{@wA{@u@yKaIoCkBqA}A_B_DiH}MoAqB}E}G}DcFsAiAo@o@a@}@UkBGSyDiH_CyDWk@a@aBMmAY{Do@sEOgBEmBBcEAw@MiCEcBD}BGiCH_If@_G^{F`AiKZkCdBkLLqATgHTkKHi@x@oKPsAlCoLXaAvLe\\nF{HbDaFZa@zCaCrFeEV]N]~CqM_JeFsCaCU_@WcAWoHCU]k@oBaCKQGUEWQsCG]I[{@kBm@sB}AsAEICg@DmBFmAAg@CKg@gAm@wB[{AoA{EOu@_@iD[qEGUUc@iA{AG]@}@Du@@gC\\{CjAoMPyAyCh@uEtAsJjBmK~B{Dj@cAR}@\\oDhCcFR_Cf@a@BwDJ?iKIsMEiDEi@M_@_C}CeC}Eo@q@uAu@g@OoGeBKMKWm@yC[iAUe@]e@oCiDY_@Wm@gD{JMcBGSw@}C[{AaA}DKY_EyJQUmE{DYMi@K{AAiAHgC\\a@Lm@\\_Av@_@P_AJ}AAYM_C_COa@aBmLEs@Do@|BeL\\uBBQC_@JYx@wDQW_@kCsAsGeBiHcCwIgAyGKcA_AaQ?eGEeAq@eGu@gE_AiE[cCm@iIS_BEk@?iADa@Je@Re@nAcBNa@Hc@B_@C]I[kEmPkBuGuAuHkBwF_@uB]yBmAoGQwAm@_HK{@cAkEYaAUm@U_@{AuBwBoEu@oAgAqAe@_AW_A_@iCUu@qAiDWiAAk@fB}_@Au@UcAQYg@sEEw@?k@KgAQy@kDcIOi@McBUeB]sAkAoDyAsD}EgIu@_CoAmJgH{R_@sBaCaZwG_t@SuAyFuY{@oH}AiV]eC_B{AoAm@wJuCw@c@gE{Ck@UyAMsBa@_APi@`@}JhFmErCkBXeLy@iEkEsEqEuBqAqCy@_DaCkAuAeCgEqEwFmCsFkCmCmOaNk@c@IPm@u@_CaB_@SaA_@y@Sy@M_DUcGYqRsEaAKgJXiCSyEsBm@Mu@?}Cwr@M?g@[{EaEiE}CwA_BiBcAsBUmCaDgAaC{AeFeCwIgHcQk@g@aFgDmEsBe@[cBiBkEeHyBgEgDqBkDyHg@}@s@i@sB[m@O]g@qBgIaAkBkCcC{BeB_@a@mAgBaAyBsDg@mAc@_CqAh@uCPmAJuBEu@IUU]c@Yu@Ww@_@QSEWe@qEUm@W]g@[g@AiALiEx@_@BgACwC_@{Ba@u@OyFaBqDk@qA]eCmAcDeAUQSWKYu@sCkA}CoFqJu@yAsDkJYqAO_AeAyHu@eGWu@e@Y\\mAl@w@hAgA~H{CRCH_@|C_F|AwBfB}BfAsBfGuL`@kANm@De@CiBa@gCWsAi@yBq@iAqBkCs@qAY_BgBmOS_C@iKVoBlCeIlA{GtAqEAw@KYs@cAa@iB@gA_@c@K_CAqCHaEGsA]yCA_B?uCHeA|AwO@u@Iq@Cm@B_@t@}CxBmKLOJGfAUz@]Ka@k@aEMk@Mg@{AeEKi@Q}BGkA?{@H{AnD_YxCoNDeA]wN?m@F{@vA}J}BgCEM?Q|AmEcBwBo@k@]m@mA_Ey@}BKk@cAoI@SFUNY[uBOw@i@f@GQuAgBn@aCVm@L@BE@KAMKQG?IDsJsLoHuI@IASEEKACBCD?VBD{EzE_@LW@i@FsDbAOLEHKCoEfAICc@_@ALjAhAJN?Fy@c@cAw@iCkC{@kAaAcBm@gA}@yByAcFa@}Be@cES}CcHsxA{@aScA{Sq@eQYiFa@yEuAyKwFy`@aGub@cAqG{@eE{@}CcAaDiAsC_KiTmCsGs@cCo@kCqAiIY}C[qEQ_FE{DD_GF{BToE~Cei@WESbCKp@Oc@Wi@cBmAYWKa@w@iEy@aCe@{A}@oBs@mAeA_CwAsBy@aAeByC_AaAk@y@aCqEuA{CwAcBgAaCiAiDk@_CHOeFc]{BeMw@aDgBmF_A{FMeA?k@\\oIn@_H@cCC_BUcFU_CeAqIi@sF[gFc@_GkAg_@_@aQm@eHKsAkF}BxHyRxIiU|KaZ~HeSaGiFuP_PmDkCYo@_GiFuEoGwL_NyI}Pk@qB{DyPsFsUeIoXq@iDg@mEjDqAMeWOm@b@iHYm@eCw@yDk@aAk@i@HMRM^UdAUv@ALwANyEH[MY][c@sAmC_GmN_BgFmB}IqB{Fc@cBYqCCuCf@uI\\wEd@mDp@sDLoCbBsIZiB^gHx@sEvAyEfBuBd@iAV_A@gAH_AJg@n@kAh@yA`EsMp@qAzBuB@]Ok@OYG]?kADmAF[d@oAHw@H{CTyBbAeFNqAXyCBgAOaC@}A`@mCj@cFRqEMqL]uMJs@~@qEp@kEA_Cb@_E?qBQsFUeLwCo\\ScDGmDL{E\\yBhBkGh@qCAu@Ku@Uw@cAgBwBkCyI{OYiBGyABcF[cDWu@qA_CmAu@sBs@w@g@[a@y@m@c@e@EYLmAA]uAyGkAcCa@_@Um@Ew@Ds@Lq@~@kDBWCSaBgBO[}@gDeH{\\gDqRAc@?gCRyLDmGbAkB`@qA_CmCu@cEsAkDc@uBc@cFCyIX}LCyDi@iDqAkEo@kC[qBO{DEwDJ}KOeDUgEu@mGsAwIa@gFGaDAo[O{SQyD[sCm@_DS_@u@aGQq@oAwAKg@BiB{CuOyAeJk@}CwA_E{AuEiDmQ]}A]mAe@wA|A}BOkCgAgO|@mDFcAJ[A]{@{DG{CYyFwAiKTkL[gCA[]yAi@uDMm@Oa@MYYa@IUIeA_@kBIq@A{@GQIIBUAMOYIg@iAsGEOMQ?]IaB?wAnAj@v@uGVwH^eGhAkK`@{CzAiHzAuFP}@jAuEfD_L`AgC|@_Ed@qDf@qGBuBHy@t@eDd@qDTgATm@j@w@zA_BzAuC\\k@t@aATa@Vy@d@oD~@uEfCgLPaBHwEd@yBp@gCb@qCr@{AxA}AlCgGXy@`AkEnAwEN_A@qACe@Ge@sAwHAYBa@RcABu@]{F?a@B[Ns@Dk@ASG_@_@yA_AiGs@uDEi@UuFQuAi@cCUqBB}AVcBR{@Fq@i@?sA^u@PgAIWMVq@ReA`BeNnAoJZkA`CyGt@yCj@{Dl@{DpAmGn@mFp@cCrBmGrCcJlD_MvE}On@aCjCaKd@mCRaDLy@Ne@zCuDv@ULKfCgH`B_EP]V[jAkA|@_BrA_Ep@eC~A_DbAmArBqBdB{Av@cArAwCtAaDh@}@~CgCV[rBqGhBgB`BaCbAgBvEwFnAeBdBg@hDoNnAeDnBeDnAcCvAcGfAsFdByGdEaQfA_FjA}Ef@gBx@iB\\gApAcITsBJaBDkBB]J_@LO^Wj@WJSnAiHNkAlA}EHs@BgBHk@d@kBTkA`AiGbAsCp@mDf@qAbCqDjA{BzCoDjCaEhB{DjBkGbH}^qPyMwGcGoBoBuLoKXuA^{@nA}B`BkEfAeDP{@@cAEeGOsEdA{AfE{G^a@Aa@B[hGa[p@{CRiCBw@M}@Us@gFeEgK}Ii@k@[k@Qu@SyAeAgKsDw\\kMclAgAgLo@wFMqBFwBNgAn@iC|Ju[pCeIfBiGRyALcAp@oIgImWmB_IuCaVcCmT}AcIoDeJ{AsDsA{BoAiB}DkHgAyE_@eDMuBo@gAcAcAgD_UI}Cm@sEoDsb@c@qGOyDMmGQgEWgCiCoM{@eKw@sFQyCVeJ?eGIoMMyKGkAIiAE_@_@{AGSqBmDsByFsHmU_\\i|@e@cCEiAO}G[yGIeASqBc@aBO[_@i@qEyDu@y@mEyL_AiDs@wC}M_YqAgDiHmVyBaHgOy]_F}Mc@cDOuDJqG@kBOuA}@eF[cBe@uAk@cAaFuB{Au@{@aAiHqP[cB}BeOOu@Yu@{AeCcD_FgDsEA_@Im@cBcFiBaDBSGKIB?Qc@{Bq@cE]yEQuD_AOuAc@]DuAp@}AyIaG~Aa@iDi@kCy@wCkDbBo@Ho@My@w@iCiD_AkByAoDy@gBy@wAy@gAHSDU@WCWCQS]MIOAO@MHKAa@UQe@[sAmB}Gc@oAg@}@g@s@u@u@WQiJcFsA}@e@c@MSb@wAD[DcCN_F@cAGyEDuBf@wJp@eKZkDh@iF`@uCf@eCViAVe@zAkDRiAh@cFWKSWKc@mAgMwAyLa@sCdDs@dEi@JIFYPeDxBai@a@sPc@eP?cBH}AVaCn@aEdB_I@UCWw@cDq@}CYcBqD{Su@oFG_APoAx@kDAqAKm@[g@]Fi@MiAsAw@w@NgAa@gCcDsXy@eJGSAm@QsBsAeLAcA@gAZcJp@cLDuBu@mLu@}@Ia@OyCm@wEUyE?OBMFEb@M|@k@NSJ]Dc@WqAu@_EeAcCoAsFaAgFc@cEk@wK@}CIoDIqAQuACw@Du@Cm@m@yCW{@kB{D{AuBa@s@i@s@{AeBYa@m@e@[CuBa@cAD[QOSOo@Ec@CeB@qA~CZd@@n@KlAk@pAMzAAx@MbCm@|Ew@nMcDt@UdE{BhGmEpAo@tD{ApD_Br@c@rAmAfBsBZSz@Yb@S`@a@|BuDxAoBlKaMpHkK|@_BlFyKTEZMHMfA}Bb@k@lCy@t@_@\\e@d@}@nGcNNg@lAgF`@mA\\y@nBcEd@oAp@oCvBuHxCyLxGaZdFmUXcCl@{FdA}IDeANcGJgCNmBLuA@eAImCAiDD_@@E?QAEHeA@wBY}NBoAd@wEFmA?{@Eq@@eAQoEHYLMc@{AyA}JEuB?uGCiAOqC_@yEy@gJgC_WcDg]g@_Fc@eD_@mBq@cCgP}^mA|AaAiDUi@U[m@g@i@s@S]c@oAeA_CqB{D{@yAyAsDa@q@m@s@q@kB_BwDc@aC_BmDsA_C}CiEqBsAgCqBqAyAy@gAiAeAgA}@qA}AwEuH[]]UeAe@q@a@]a@u@wAQYiDiDkEwCmCsBu@a@mByA@GAKEEGBEH@FwG|ACIMGEBGP?H}H|AKEIMQq@U}@mQpi@uMwLwZqX}B_CoByBcKgNqDiCeQcFD]Bu@^aDtA{Md@aFBQFEF@D_@YKaAE]SSSmBy@GBMEAMMUKCOFEHGEg@U[EuBu@yDu@UMcASw@MaA[wCi@sDe@cIk@{AGiLq@]Eo@I]Ka@KoAa@GD}BaAmCcBmC{BsAuAwF}FOIDMDc@Ea@OWMIMAWJOVE`@u@[i@k@e@mAYaA_@u@]c@cc@_f@{AoAa@QWB_H|Be@A_@U_CaCIOOJk@IYUGGIcA?WHe@X_@NGDI`@mBXgAt@wB@iAk@SeB_AeAu@sBqB{GwHqCsCcAoAaGoGe@UQOIk@MUSU[EEa@oCwCkC}CwBqBk@q@UIg@e@}QeSg@c@eCyAOMMg@QUQE[aAg@{@eJ}JASo@o@G?yEkFKi@_A}B{@{FA[o@eEDUEQCIMCE@KNAHCQUsAAk@aOw`ABQl@}B_BuA]GWe@[S_CkBYUw@]SOaG_Fe@OG[II}D_DEFa@a@AIcDqCeAcA?S{@s@KGeRyO}CqCQUMe@QIEQSKZqAdJyf@R}ARq@jB{IB]\\}ASQsJyF}@a@CE_Ag@EEGUCC`@uCeDuBPmCZoHGAPqEKCCf@"
+              ],
+              "actions": null,
+              "start": {
+                "type": "STOPAREA",
+                "id": "FR:14437:StopPlace:AUTOxAL202305250956042825:ATOUMOD",
+                "name": "Mondeville Centre Commercial",
+                "lat": 49.1642,
+                "lon": -0.294805,
+                "city": "Mondeville",
+                "postalCode": "14437",
+                "realtime": 0,
+                "hide": true
+              },
+              "end": {
+                "type": "ADDRESS",
+                "id": "49.43931,1.09671",
+                "name": "Docteur Geek, 2, Rouen",
+                "lat": 49.43931,
+                "lon": 1.09671,
+                "city": "",
+                "postalCode": "",
+                "realtime": 0,
+                "hide": true
+              },
+              "extra_datas": {
+                "type": "bike",
+                "elevation": {
+                  "start": 22,
+                  "end": 15,
+                  "min": 0,
+                  "max": 153,
+                  "positiveelevation": 1817
+                },
+                "cyclability": {
+                  "recommended": {
+                    "distance": 0,
+                    "percent": 0
+                  },
+                  "normal": {
+                    "distance": 136900,
+                    "percent": 100
+                  },
+                  "discouraged": {
+                    "distance": 0,
+                    "percent": 0
+                  },
+                  "sectionInfos": [
+                    {
+                      "distance": 1615,
+                      "percent": 1,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 151,
+                      "percent": 0,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 652,
+                      "percent": 0,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 675,
+                      "percent": 0,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 727,
+                      "percent": 1,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 685,
+                      "percent": 1,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 1800,
+                      "percent": 1,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 1413,
+                      "percent": 1,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 2422,
+                      "percent": 2,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 329,
+                      "percent": 0,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 142,
+                      "percent": 0,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 12680,
+                      "percent": 9,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 1258,
+                      "percent": 1,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 2866,
+                      "percent": 2,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 11528,
+                      "percent": 8,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 3319,
+                      "percent": 2,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 6324,
+                      "percent": 5,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 627,
+                      "percent": 0,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 67,
+                      "percent": 0,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 27,
+                      "percent": 0,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 68,
+                      "percent": 0,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 1102,
+                      "percent": 1,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 13568,
+                      "percent": 10,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 409,
+                      "percent": 0,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 11690,
+                      "percent": 9,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 433,
+                      "percent": 0,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 1088,
+                      "percent": 1,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 78,
+                      "percent": 0,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 47,
+                      "percent": 0,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 3914,
+                      "percent": 3,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 22592,
+                      "percent": 17,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 1698,
+                      "percent": 1,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 4468,
+                      "percent": 3,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 730,
+                      "percent": 1,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 756,
+                      "percent": 1,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 382,
+                      "percent": 0,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 6622,
+                      "percent": 5,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 2581,
+                      "percent": 2,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 54,
+                      "percent": 0,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 2646,
+                      "percent": 2,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 2903,
+                      "percent": 2,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 3103,
+                      "percent": 2,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 6238,
+                      "percent": 5,
+                      "value": "BAD"
+                    },
+                    {
+                      "distance": 402,
+                      "percent": 0,
+                      "value": "MEDIUM"
+                    },
+                    {
+                      "distance": 21,
+                      "percent": 1,
+                      "value": "BAD"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Car",
+      "journeys": [
+        {
+          "id": "8cf35fd9-938a-44ac-8237-990e184d5adc",
+          "start_date": "2023-12-04T10:38:52+0100",
+          "arrival_date": "2023-12-04T11:50:01+0100",
+          "duration": 4269,
+          "co2_information": {
+            "co2": 28233,
+            "carCo2": -1,
+            "label": "F"
+          },
+          "pricing": {
+            "total_cost": null,
+            "currency": "EUR"
+          },
+          "is_summary_available": false,
+          "journey_summary_code": "%7B%22p%22:%7B%22wt%22:%222023-12-04T10:38:52+0100%22,%22f%22:%22STOPAREA%7CFR:14437:StopPlace:AUTOxAL202305250956042825:ATOUMOD%22,%22t%22:%22ADDRESS%7C49.43931,1.09671%22,%22r%22:false,%22bs%22:1,%22v%22:%5B%5D%7D,%22j%22:%7B%22p%22:%5B%7B%22m%22:%22CAR%22,%22f%22:%22STOPAREA%7CFR:14437:StopPlace:AUTOxAL202305250956042825:ATOUMOD%22,%22t%22:%22ADDRESS%7C49.43931,1.09671%22,%22sd%22:%222023-12-04T10:38:52+0100%22,%22ad%22:%222023-12-04T11:50:01+0100%22,%22dti%22:null,%22ati%22:null%7D%5D%7D%7D",
+          "trip_detailed_required": false,
+          "criterion": "",
+          "paths": [
+            {
+              "hide": false,
+              "mode": "CAR",
+              "start_date": "2023-12-04T10:38:52+0100",
+              "end_date": "2023-12-04T11:50:01+0100",
+              "duration": 4269,
+              "distance": 122752,
+              "shapes": [
+                "ekakHrqx@d@c@pD~@RVBL?RMxAERYj@GLI`@?XBLNXXJn@Kf@RRl@BRBx@ExAGXE~B?tBDh@KnFKvCQ|BYrBSf@WfA]t@c@d@_@JaFJYFYLQPo@`AUJs@GiD{Cu@oAKSm@q@m@gAO_@Ke@OsAc@{GUoEA}@?iCDoBTmDAi@`@mDh@sGZsFDmAZgLDeFFgMA_KEyISuQQmIc@yPoAmc@[oPUqOMoOG{M?{HPgaDAwEIsKUkJOgE_@yHk@}He@oFm@gFe@sDmAeIw@kEeBeI{@oDuAgFiDyKwB_GqEcKiBsDeD}FwD}F_ByBoBeCsHmIcrAetAeI}IgD{DeDaEwC}DqC{D{GcK_GcKkF_KgCqFyBqFuBwFoB_G{AqFwBuIwA_HmAsGq]aqBw@aE}DcS_F{TiC{KaEePuJ{^aC}J{BwJ}BwKcPwy@_GwYiB}JkDkScEkXuZe|Ba@kCs@mD{AgIiA_Ig@gEkAwLm@iHgFc`@kBaPqGwp@_B}NsB}OiD}T{DcT_CgLmCuL_GiVmFaVaDaPkUmpAeCqO_BcL}C{VgAcK}AgPc@kFqA{Pa@eG_AoPu@_Qe@oMUuIkAwi@K{FC{F?oDDeDNqEToEb@{Er@}FhAkHtEoVfAqGp@}E`@sD`@yE|@sMfAsSPsFLcF@qFA_COyGOsC[gEe@qEk@cEq@yDu@yDy@wDcEcQoA_GmAyGw@eFo@gF_B_N{@}GcA}G}AkIiBcIiDkMwHoW{BoIkB}HgCoMgBkLe@sDaA_Ji@mGe@}Gg@cK{Byj@k@kLo@}Jk@{HeAgM[mFgGsl@yA_P_A}Lc@uHa@iH[kHc@qMy@e\\OiIYmYCuHK}h@MkL[mOUkGY_Gq@}Jg@mFmAiJsAiIcB_IsBcIaPqh@cEmO{AoGyA{G}BwLsFw[cBgJqBuJeA_EiA{DeBqEeAaCmAaCk@cA}BqDgB_CmBsBsBkBuBwA}BsA}BkAyFeBkO_DiCa@iEmA}EkBoDcB{DaCwCsBiEsDyD_EcGmHuCgE_D{FyDgIQu@]u@eBqEwB_H}@{CkA}EiAoFw@eEs@wEq@yE{@cHkAkM_@oE_AqNm@aKe@cKWmHY}JSyJQmNO}Si@ccCK}SQwKQsHWmI]cI{@qN_AcKsA}KqG_e@q@kG{@sLgAyRa@iFg@uE}@_GmAyF}A_Gw@aCw@qB}AoDsB}D{EeHuEwFo[s]wDkEcFaHiGiKiD_HyBeFkBiFeD_KmDsMiHmZcYkmA_FwRiEoOyAuEoAyD{BmGyAuDcFuLkLyViC{FqBoFsA}D{A_FsAcF{@wDq@qDiA_Ha@iCUoBUuBSoCk@aMq@yK_@yICyEDoHHcDPcGb@eIb@kFh@iFZoCpAuIx@oEx@}D|@uDt@sCz@yChJ}YxA}Fr@_Dl@cDr@cFVuBRuBXqET}FHgHA{CGyCU{Fa@uFUcC{@mGiAaGg@qBaB{FuRai@gM{\\aDuHeAmBiAoB{CgEeCcCiCyB}MwHgEmDuBcCsB{C{@_By@cBw@kBo@kBmAkEk@eCc@iCi@}D]aEQuCKqCc@sPOaEWwDe@yEWwBcAgGi@oCkCyKkAgFi@oCcAoGYcC[aDuA_Tq@yHeA{Hu@oDs@{Cs@kCaB}Eu@mB{@kBmAeCsA{B{A}B}AqBoBwBkCaCaDuBsC}A}DaBiFgC}BsAuEqDkBqBkE}FcBuC{A}CaBaEwAkEgBsGsDoPcCiKaAmDoBcGyAsD_BmDqByD}BkD_CoCcDiCkEqBgLmCqBs@cB_AuAaA_BwAcBoBgAcBmA{BiBmEuBcGoBkF}@mB}@cBmGcKyAqCqAwC}@sCcAiEg@_D]aDuAuPq@oFu@}D}@wDcBsFuBoFmKkTiB}D}AwDoAmDmB{FoAoEwAcGoAkGiA}Gc@}Ca@aDk@aGUuCc@oHMuCSoIGgG@_HDeDPyGJsC\\kGVmDx@gI~@eH|AeJz@iEhAwElAsEfB}FlHiUbAgDxCiKzCyLhBaI|AyHhCqNxB}NpBwO~AyOfAqNt@uLXcGVoGXkKPyIJoI@uF?cMYy`@C{F?}DBaEPiHTeGXmEZgEj@gGz@_HtAeIj@uCrAwGxFuWzCaP~BmNnA}IhA}I`A_JjBsSr@mJnMmuBj@oIbBgS~@oJ|CyZz@eJpA}Q^yGViFZcJVaJPwKFkJ@qGAmJUse@C}RHkPLwLTmLr@eVlDgaATeH\\yNRwNBaOC_GIqLYqZGkKCcJ?qHDuIHeIL_IrBk`ALaKFoJBkJGwQe@mm@AcHHoVRcPLiGZoLp@cP`AoRdAcQlK_|Ax@}Mh@kKh@sLr@kThOwgGl@{RZ_Jh@{LdAiQh@gHx@iJhAuKbB{MxA{JdBaKt@eEhAqFlByIvAaGbCwJlByGnL}`@nCqJjBaHvAuFtA_GvB}J|BoLtCmQpHak@nAkIrAeI~@oFrCwNvGy[pAyGxAgI`AkG`AqGbDeWnFkd@nD_[n@iGfBcSr@yJvCke@fC}]PiDLkDFqD@qDA_FI_Fu@yYCgEBsDHgDXsEZsDfBiP\\yDVoFJ_E?_CAwD_@eP_@cTHiAAiBFkDReCVeBXiArAyEZqBP}AHyA@wBCwBOiCa@gCs@mCaBkDiD_Fm@eAUe@e@uAYgA]aBm@_EqXsnBoB_NsAkGi@iB{@mC_A{BcCwE}CyFaQq]sE}IwZcl@}DoHoAiBs@{@mBuAeAa@yA_@yBa@{D}@{B}@eHqDw@S}WgOaTaN_IyF_MgKiNuJcCaAgCs@oB_@yBOoAEaD@_QGyERsDd@iCt@_C~@uBdA{DpCcCfCoBbCoAnBoAxBe_@~w@{BbEeB|B_BbBmAx@eBx@eA\\iATwALqAAaBKgCa@uBs@oB}@wHwD{D_CkLkIwG_FmDuC}K_Kss@sw@qFoGqGqFeAm@_A[aASsB[wA_@eAe@g@_@sAkAc@k@a@k@cCoEsAoBu@y@gAaAg@]aDwAiAYcIqAw@U{Ay@{BeBmCgCcAwAqAaCaBiD}@wBw@cCk@eCa@mC_@iEsBuXKoBk@uIGgCAwAD[Pa@BQ?UE_@GOOSEiAGwLBcBH}@XeBRm@{@o@sM_LcCoB{CoCSUa@WNk@`@_D`Jgf@]KmDkB{E{Bd@gC|BsN[SOOyAy@^mCeDuB\\uGpAMTuBaEqAj@sEt@X"
+              ],
+              "actions": null,
+              "start": {
+                "type": "STOPAREA",
+                "id": "FR:14437:StopPlace:AUTOxAL202305250956042825:ATOUMOD",
+                "name": "Mondeville Centre Commercial",
+                "lat": 49.1642,
+                "lon": -0.294805,
+                "city": "Mondeville",
+                "postalCode": "14437",
+                "realtime": 0,
+                "hide": true
+              },
+              "end": {
+                "type": "ADDRESS",
+                "id": "49.43931,1.09671",
+                "name": "Docteur Geek, 2, Rouen",
+                "lat": 49.43931,
+                "lon": 1.09671,
+                "city": "",
+                "postalCode": "",
+                "realtime": 0,
+                "hide": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

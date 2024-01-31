@@ -17,6 +17,9 @@ export default {
   
 <style lang="scss">
   .search-view {
-      width: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 </style>

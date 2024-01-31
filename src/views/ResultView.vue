@@ -1,6 +1,5 @@
 <template>
   <div class="result-view">
-    <h2>This is result view</h2>
     <ResultForm />
   </div>
 </template>
@@ -16,6 +15,11 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss">
+.result-view {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 </style>

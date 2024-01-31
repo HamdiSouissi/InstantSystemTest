@@ -24,8 +24,8 @@
 }
 
 .card{
-    width: 100%;
-    min-height: 200px;
+    max-width: 600px;
+    width: 96%;
     border-radius: 30px;
     background: #fff;
     box-shadow: 0px 0px 23px -4px rgba(0,0,0,0.25);
@@ -42,8 +42,21 @@
         width: 100%;
         text-align: left;
         font-weight: 700;
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-bottom: 20px;
     }
+
+    .b-text{
+      font-weight: 700;
+      color: var(--txt-color);
+      margin-left: 10px;
+    }
+    .line {
+      width: 100%;
+      display: block;
+      position: relative;
+      float: left;
+      margin: 3px 0;
+  }
 
 }
