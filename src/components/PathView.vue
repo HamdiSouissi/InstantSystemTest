@@ -6,36 +6,34 @@
         >{{path.extra_datas?.number}}</div>
     </div> 
 </template>
-<script setup lang="ts">
 
-    import { defineProps } from 'vue';
-    import busIcon from "../assets/icons/ic_bus_circ.svg";
-    import trainIcon from "../assets/icons/ic_tc_circ.svg";
-    import bikeIcon from "../assets/icons/ic_bike_circ.svg";
-    import carIcon from "../assets/icons/ic_car_circ.svg";
-    import metroIcon from "../assets/icons/ic_metro_circ.svg";
-    import tramIcon from "../assets/icons/ic_tram_circ.svg";
-    import walkIcon from "../assets/icons/ic_walk_circ.svg";
+<script>
+import busIcon from "../assets/icons/ic_bus_circ.svg";
+import trainIcon from "../assets/icons/ic_tc_circ.svg";
+import bikeIcon from "../assets/icons/ic_bike_circ.svg";
+import carIcon from "../assets/icons/ic_car_circ.svg";
+import metroIcon from "../assets/icons/ic_metro_circ.svg";
+import tramIcon from "../assets/icons/ic_tram_circ.svg";
+import walkIcon from "../assets/icons/ic_walk_circ.svg";
 
-    type Props = {
-        path: any;
-    };
-
-    const props = defineProps<Props>();
-
-    const getIcon = (mode: string): string => {
-        switch (mode) {
-            case 'BUS': return busIcon;
-            case 'TRAIN': return trainIcon;
-            case 'BIKE': return bikeIcon;
-            case 'CAR': return carIcon;
-            case 'METRO': return metroIcon;
-            case 'TRAM': return tramIcon;
-            default: return walkIcon;
+export default {
+    name:'PathView',
+    props: ['path'],
+    methods:{
+        getIcon(mode){
+            switch (mode) {
+                case 'BUS': return busIcon ;
+                case 'TRAIN': return trainIcon;
+                case 'BIKE': return bikeIcon;
+                case 'CAR': return carIcon;
+                case 'METRO': return metroIcon;
+                case 'TRAM': return tramIcon;
+                default : return walkIcon;
+            }
         }
     }
+}
 </script>
-
 
 <style lang="scss">
     .path {

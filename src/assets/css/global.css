@@ -54,4 +54,19 @@
       margin: 3px 0;
     }
   }
+
+  .dp__today,.dp__active_date {
+    border-color: var(--main-color);
+    background: var(--main-color);
+    border-radius: 50%;
+    color:#fff;
+}
+
+span.dp__inner_nav svg path {
+    fill: var(--main-color);
+}
+
+.dp__calendar_header {
+    color: var(--main-color);
+}
 }

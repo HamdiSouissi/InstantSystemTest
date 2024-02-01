@@ -26,7 +26,8 @@
     <div class="row">
       <div class="form-control">
         <label :for="fromId">{{ fromLabel }}</label>
-        <input type="text" :name="fromName" :id="fromId" v-model="fromValue">
+        <input type="text" :name="fromName" :id="fromId" v-model="fromValue" :class="{'input-error':isFromEmpty}">
+        <span class="txt-error" v-if="isFromEmpty">* Merci de remplir ce champ</span>
       </div>
       <div class="add-btn"><svg-icon type="mdi" :path="plus"></svg-icon></div>
     </div>
@@ -34,7 +35,8 @@
     <div class="row">
       <div class="form-control">
         <label :for="toId">{{ toLabel }}</label>
-        <input type="text" :name="toName" :id="toId" v-model="toValue">
+        <input type="text" :name="toName" :id="toId" v-model="toValue" :class="{'input-error':isToEmpty}">
+        <span class="txt-error" v-if="isToEmpty">* Merci de remplir ce champ</span>
       </div>
       <div class="switch-btn" @click="swapInputs"><svg-icon type="mdi" :path="swap"></svg-icon></div>
     </div>
@@ -82,7 +84,9 @@ export default {
       toName: "to",
       toId: "toInput",
       toValue: "",
-      date: new Date(),   
+      date: new Date(),
+      isFromEmpty : false,
+      isToEmpty: false,
     };
   },
   methods: {
@@ -102,15 +106,29 @@ export default {
       return format(date, 'dd MMM HH:mm', { locale: fr });
     },
     search() {
-    this.$router.push({
-      name: 'result',
-      query: { 
+      
+      if (this.fromValue.trim().length === 0) {
+        this.isFromEmpty = true;
+      }else{
+        this.isFromEmpty = false;
+      }
+
+       if (this.toValue.trim().length === 0) {
+        this.isToEmpty = true;
+      }else{
+        this.isToEmpty = false;
+      }
+      if (!this.isFromEmpty && !this.isToEmpty) {
+         this.$router.push({
+        name: 'result',
+        query: { 
         from: this.fromValue,
         to: this.toValue,
         option: this.selectedOption,
         date: this.formatDate(this.date)
       }
     });
+      }
   }
     
   },
@@ -121,6 +139,9 @@ export default {
     formattedDate() {
       return this.date ? this.formatDate(this.date) : '';
     },
+    isFormValid() {
+      return this.fromValue.trim().length > 0 && this.toValue.trim().length > 0;
+    }
   },
 };
 </script>
@@ -309,8 +330,16 @@ input.dp__pointer.dp__input_readonly.dp__input.dp__input_icon_pad.dp__input_reg 
     text-align: left;
     z-index: 999;
 }
-
-
-
-
+span.txt-error {
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-align: left;
+    width: 100%;
+    display: block;
+    padding: 3px 15px;
+    color: var(--main-color);
+}
+.input-error {
+    border-color: var(--main-color);
+}
 </style>

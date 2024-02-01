@@ -129,7 +129,6 @@ export default {
             font-size: 0.7rem;
         }
     }
-
     .paths {
         display: flex;
 
