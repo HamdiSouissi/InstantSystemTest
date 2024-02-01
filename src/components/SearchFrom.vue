@@ -161,7 +161,7 @@ export default {
       color: var(--main-color);
       font-weight: 600;
       font-size: 1rem;
-      background: #fff9fb;
+      background: var(--light-background-color);
       border-radius: 8px;
       width: 150px;
     }
@@ -206,7 +206,7 @@ export default {
     margin: 0 3%;
     &:hover{
       background: var(--main-color);
-      color:white;
+      color:var(--white);
     }
 }
 
@@ -221,7 +221,7 @@ export default {
     overflow: hidden;
     -webkit-animation: scale-up-ver-top 0.4s both;
 	  animation: scale-up-ver-top 0.4s both;
-    color: #fff;
+    color: var(--white);
     background: var(--main-color); 
 }
 .row {
@@ -239,7 +239,7 @@ export default {
       border-radius: 8px;
       cursor: pointer;
       background: var(--main-color);
-      color: #fff;
+      color: var(--white);
       border: none;
 
       &:hover{
@@ -258,10 +258,10 @@ export default {
     
       &:hover{
         background: var(--main-color);
-        fill:#fff;
-        color: #fff;
+        fill:var(--white);
+        color: var(--white);
         path{
-          color:#fff;
+          color:var(--white);
         }
       }
 
@@ -280,8 +280,8 @@ export default {
         float: left;
         padding: 10px;
         font-size: 1rem;
-        color: #000;
-        border: 1px solid #e3e3e3;
+        color: var(--txt-color);
+        border: 1px solid var(--border-color);
         border-radius: 8px;
         padding-left: 50px;
         &:focus{

@@ -89,6 +89,12 @@ export default {
 
 
 <style lang="scss">
+@mixin center-flex {
+  display: flex;
+  align-items: center;
+  
+}
+
  .journey {
     box-shadow: 0px 0px 14px -7px rgba(0, 0, 0, 0.65);
     -webkit-box-shadow: 0px 0px 14px -7px rgba(0, 0, 0, 0.65);
@@ -107,12 +113,11 @@ export default {
     cursor: pointer;
 
     .journey-header, .journey-footer {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        @include center-flex;
         position: relative;
         float: left;
         width: 100%;
+        justify-content: space-between;
     }
 
     .journey-details, .path-detail {
@@ -123,9 +128,8 @@ export default {
         margin-top: 5px;
         
         .public-transportation, .other {
-            display: flex;
+             @include center-flex;
             flex-wrap: wrap;
-            align-items: center;
             font-size: 0.7rem;
         }
     }
@@ -133,14 +137,12 @@ export default {
         display: flex;
 
         .path-container {
-            display: flex;
-            align-items: center;
+            @include center-flex;
             justify-content: center;
             flex-wrap: nowrap;
 
             span.path-separator {
-                display: flex;
-                align-items: center;
+                @include center-flex;
                 justify-content: flex-start;
                 width: 25px;
                 height: 25px;
@@ -158,22 +160,20 @@ export default {
     }
 
     span.duration, .price, .recommendation {
-        display: flex;
-        align-items: center;
-        background: #f4f5ff;
+        @include center-flex;
+        background: var(--secondary-background-color);
         padding: 3px 5px;
         font-weight: 700;
         font-size: 0.7rem;
         border-radius: 4px;
         margin-bottom: 12px;
         margin-top: 15px;
-        color: #2d3eb2;
+        color: var(--dark-blue);
     }
 
     span.path-info {
-        display: flex;
-        align-items: center;
-        background: #f4f5ff;
+        @include center-flex;
+        background: var(--secondary-background-color);
         padding: 3px 5px;
         font-weight: 700;
         font-size: 0.5rem;
@@ -190,9 +190,8 @@ export default {
         margin-left: 5px;
 
         path {
-            fill: #03A9F4;
+            fill: var(--blue);
         }
     }
 }
-
 </style>

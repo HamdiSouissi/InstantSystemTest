@@ -96,7 +96,7 @@
       height: 35px;
 
       path {
-      fill: #37464f;
+      fill: var(--grey);
       }
     }
   }
@@ -108,11 +108,11 @@
     margin: 20px 0;
 
     p.way-type {
-      color: #37464f;
+      color: var(--grey);
       text-align: left;
     }
     .itineray {
-      background: #f4f5ff;
+      background: var(--secondary-background-color);
       width: 100%;
       display: block;
       position: relative;
@@ -121,7 +121,7 @@
       padding: 5px 20px;
       margin-top: 15px;
       border-radius: 8px;
-      color: #37464f;
+      color: var(--grey);
     }
   }
   .journeys {
@@ -153,7 +153,7 @@
     font-size: 0.8rem;
 
     span{
-      color:#000;
+      color:var(--txt-color);
       font-weight: 700;
     }
   }
